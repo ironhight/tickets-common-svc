@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/ironhight/tickets-common-svc#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }
