@@ -6,8 +6,8 @@
   "types": "./build/index.d.ts",
   "scripts": {
     "clean": "rimraf dist/",
-    "build": "yarn run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && yarn version --patch && yarn build && npm publish"
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "author": "Hoai Nam Nguyen",
   "license": "ISC",

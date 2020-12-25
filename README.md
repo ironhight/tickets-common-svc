@@ -1,1 +1,1 @@
-# Custom error, event, middleware to sharding and reuse between services
+# Custom error, event, middleware to sharding and reuse between services.
