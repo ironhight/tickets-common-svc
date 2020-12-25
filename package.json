@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rimraf dist/",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish && npm publish --registry=https://registry.npmjs.org"
   },
   "author": "Hoai Nam Nguyen",
   "license": "ISC",
@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/ironhight/tickets-common-svc#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   }
 }
