@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rimraf dist/",
     "build": "yarn run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && yarn build && yarn publish"
+    "pub": "git add . && git commit -m \"Updates\" && npm version batch && yarn build && yarn publish"
   },
   "author": "Hoai Nam Nguyen",
   "license": "ISC",
