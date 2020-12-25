@@ -1,13 +1,13 @@
 {
   "name": "@ironhight/tickets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "yarn run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && yarn build && npm publish --access public"
+    "pub": "git add . && git commit -m \"Updates\" && yarn build && yarn publish"
   },
   "author": "Hoai Nam Nguyen",
   "license": "ISC",
